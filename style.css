@@ -25,17 +25,17 @@ body {
     justify-content: center;
     margin-top: 6vh;
     gap: 25px;
-
-    & .login-text {
+}
+     .login-text {
         text-align: center;
         display: grid;
         gap: 11px;
-
-        & p {
+     }
+         p {
             font-size: 13px;
         }
-    }
-}
+    
+
 
 
 .login-container,
@@ -43,20 +43,20 @@ body {
 .password {
     display: grid;
     gap: 5px;
-
-    & input {
+}
+     input {
         width: 530.75px;
         height: 59.65px;
         background-color: var(--loginbg);
         border: var(--border);
     }
 
-    & .login-btn {
+    .login-btn {
         display: grid;
         gap: 37px;
     }
 
-    & button {
+     button {
         width: 537.75px;
         height: 59.65px;
         background-color: var(--buttonsColor);
@@ -66,16 +66,16 @@ body {
         border: var(--border);
     }
 
-    & .sign-up {
+     .sign-up {
         text-align: center;
         color: var(--colorGray);
-
-        & span {
+     }
+         span {
             color: var(--colorBlue);
         }
-    }
+    
 
-}
+
 
 input::placeholder {
     padding: 0px 10px;
@@ -202,34 +202,34 @@ nav ul li.btn.hide i:before {
         display: grid;
         justify-content: center;
         padding: 0px 20px;
-
-        & input {
+    }
+        input {
             width: 290px !important;
             height: 45px;
             background-color: var(--loginbg);
             border: var(--border);
         }
 
-        & button {
+         button {
             width: 290px;
             height: 45px;
         }
 
-        & .login-text {
+         .login-text {
             text-align: left;
-
-            & h1 {
+         }
+             h1 {
                 font-size: 22px;
             }
 
-            & p {
+            p {
 
                 font-size: 10px;
             }
         }
-    }
+    
 
-}
+
 
 @media(max-width:400px) and (min-width:320px) {
     .login {
@@ -237,33 +237,34 @@ nav ul li.btn.hide i:before {
         justify-content: center;
         padding: 0px 20px;
 
-        & input {
+    }
+    input {
             width: 330px !important;
             height: 45px;
             background-color: var(--loginbg);
             border: var(--border);
         }
 
-        & button {
+         button {
             width: 330px;
             height: 45px;
         }
 
-        & .login-text {
+        .login-text {
             text-align: left;
-
-            & h1 {
+        }
+             h1 {
                 font-size: 22px;
             }
 
-            & p {
+             p {
 
                 font-size: 10px;
             }
         }
-    }
+    
 
-}
+
 
 
 
@@ -272,68 +273,68 @@ nav ul li.btn.hide i:before {
         display: grid;
         justify-content: center;
         padding: 0px 20px;
-
-        & input {
+    }
+        input {
             width: 400px !important;
             height: 45px;
             background-color: var(--loginbg);
             border: var(--border);
         }
 
-        & button {
+         button {
             width: 400px;
             height: 45px;
         }
 
-        & .login-text {
+        .login-text {
             text-align: left;
-
-            & h1 {
+        }
+             h1 {
                 font-size: 22px;
             }
 
-            & p {
+             p {
 
                 font-size: 10px;
             }
         }
-    }
+    
 
-}
+
 
 @media(max-width:600px) and (min-width:500px) {
     .login {
         display: grid;
         justify-content: center;
         padding: 0px 20px;
-
-        & input {
+    }
+        input {
             width: 450px !important;
             height: 45px;
             background-color: var(--loginbg);
             border: var(--border);
         }
 
-        & button {
+         button {
             width: 450px;
             height: 45px;
         }
 
-        & .login-text {
+         .login-text {
             text-align: left;
-
-            & h1 {
+         }
+             h1 {
                 font-size: 22px;
             }
 
-            & p {
+             p {
 
                 font-size: 10px;
             }
         }
-    }
+    
 
-}
+
 
 
 @media all and (max-width: 900px) {
