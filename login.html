@@ -7,7 +7,9 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='responsiveness.css'>
+    
+    
 
     <!-- font icons link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -51,7 +53,10 @@
 
                 <div class="password">
                     <label for="">Password</label>
+                   <div>
                     <input type="password" name="" id="password" placeholder="Username or Email Adress">
+                    <button class="hide-password" id="hide">h</button>
+                   </div>
                     <p id="error">l</p>
                 </div>
             </div>
@@ -59,7 +64,7 @@
 
 
                 <div class="login-btn">
-                    <button id="logIn"><a href="mani.html" id="logi">log in</a><span id="logNone">log in</span></button>
+                    <button id="logIn"><a href="main.html" id="logi">log in</a><span id="logNone">log in</span></button>
                     <p class="sign-up">Don't have an account? <b><span>sign up</span></b></p>
                 </div>
             </div>
@@ -76,6 +81,8 @@
             });
         });
     </script>
+
+<script src='main.js'></script>
 </body>
 
 </html>
