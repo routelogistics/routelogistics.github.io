@@ -21,6 +21,7 @@
     --color1: #000;
     --colorBlue: #00388B;
     --colorGray: #484848;
+    --lightblue:#D9E1EE;
 }
 
 body {
@@ -272,10 +273,61 @@ background-color: #B2C3DC;
     width: 40.79px;
     height: 53.28px;
 } */
+.email{
+    display: flex;
+    align-items: center;
+}
 .call-icon1{
 position: absolute;
 top: 190px;
 left: 1100px;
 }
-
+.form-name input{
+width: 228px;
+height: 82px;
+background-color: var(--lightblue);
+border-radius: 20px;
+}
+.subject input{
+    width: 486px;
+    height: 82px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+}
+.input-message{
+    width: 486px;
+    height: 156px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
+}
+.submit{
+    background-color: var(--colorBlue);
+    width: 130px;
+    height: 49px;
+    border-radius: 10px;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 95px;
+    gap: 200px;
+}
+.get{
+    display: grid;
+    gap: 26px;
+}
+.form-right{
+    display: grid;
+    gap: 24px;
+}
+.phone-details{
+    display: grid;
+    gap: 65px;
+}
+.space1{
+    display: grid;
+    gap: 3px;
+}
 
