@@ -199,10 +199,12 @@
     nav ul li a {
       display: block;
       font-size: 20px;
+      color:#fff;
     }
     nav ul li a{
       font-size: 18px !important;
       letter-spacing: 2px;
+      
     }
     nav ul li a:hover{
       color: #ffb633;
