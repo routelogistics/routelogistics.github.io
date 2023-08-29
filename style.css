@@ -214,3 +214,68 @@ input::placeholder {
     display: none;
     color: var(--color);
 }
+/* the contact section */
+.overlay{
+width: 100%;
+height: 100vh;
+position: relative;
+/* top: 0; */
+background-color: #B2C3DC;
+}
+.contact-text{
+    text-align: center;
+    padding-top: 40vh;
+    display: grid;
+    gap: 18px;
+    
+}
+.contact-p{
+    display: grid;
+    gap: 10px;
+}
+.contact-text h1{
+    font-size: 45px;
+    color: var(--colorBlue);
+}
+.contact{
+    color: var(--buttonsColor);
+}
+.contact-text p{
+    font-size: 18px;
+}
+.blue{
+    color: var(--colorBlue);
+}
+.line{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.line1{
+    width: 29px;
+    height: 5px;
+    background-color: var(--colorBlue);
+    border-radius: 30px;
+}
+.line2{
+    width: 14px;
+    height: 5px;
+    background-color: var(--buttonsColor);
+    border-radius: 30px;
+}
+.call-icon{
+    position: absolute;
+    left: 150px !important;
+}
+/* .call-icon img{
+    width: 40.79px;
+    height: 53.28px;
+} */
+.call-icon1{
+position: absolute;
+top: 190px;
+left: 1100px;
+}
+
+
