@@ -3,236 +3,264 @@
 @media(max-width:329px) and (min-width:100px) {
   body {
     font-family: 'Creato Display', sans-serif;
-                                                
+
+  }
+
+  .login {
+    display: grid;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+
+  input {
+    width: 290px !important;
+    height: 45px;
+    background-color: var(--loginbg);
+    border: var(--border);
+  }
+
+  #logIn {
+    width: 290px;
+    height: 45px;
+  }
+
+  .login-text {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+
+    font-size: 10px;
+  }
 }
-    .login {
-        display: grid;
-        justify-content: center;
-        padding: 0px 20px;
-    }
-        input {
-            width: 290px !important;
-            height: 45px;
-            background-color: var(--loginbg);
-            border: var(--border);
-        }
 
-         #logIn {
-            width: 290px;
-            height: 45px;
-        }
-
-         .login-text {
-            text-align: left;
-         }
-             h1 {
-                font-size: 22px;
-            }
-
-            p {
-
-                font-size: 10px;
-            }
-        }
-        .hide-password{
-            width: 30px;
-            margin-left:-40px;
-        }
-    
+.hide-password {
+  width: 30px;
+  margin-left: -40px;
+}
 
 
 
-@media(max-width:400px)  {
+
+@media(max-width:400px) and (min-width:280px) {
   body {
     font-family: 'Creato Display', sans-serif;
-                                                
-}
-    .login {
-        display: grid;
-        justify-content: center;
-        padding: 0px 20px;
 
-    }
-    input {
-            width: 330px !important;
-            height: 45px;
-            background-color: var(--loginbg);
-            border: var(--border);
-        }
+  }
 
-         #logIn{
-            width: 330px;
-            height: 45px;
-        }
+  .login {
+    display: grid;
+    justify-content: center;
+    padding: 0px 20px;
 
-        .login-text {
-            text-align: left;
-        }
-             h1 {
-                font-size: 22px;
-            }
+  }
 
-             p {
+  input {
+    width: 330px !important;
+    height: 45px;
+    background-color: var(--loginbg);
+    border: var(--border);
+  }
 
-                font-size: 10px;
-            }
-        
-        .hide-password{
-            width: 30px;
-            margin-left:-40px;
-        } 
- /* contact section */
-  .contact-form{
-  padding: 0px 10px;
-}
- .contact-text h1{
-  font-size: 30px;
-  text-align: center;
- }
- .contact-text   br{
-  display: none;
-}
-.get h1{
-  font-size: 25px;
-}
-.get p br{
-  display: none;
-}
-.get p{
-  line-height: 20px;
-}
-.email{
-  gap:40px ;
-}
-.get-img img{
-  display: flex;
-  position: absolute;
-  left: 78px;
-  bottom: -130px;
-  width: 110px;
-} 
+  #logIn {
+    width: 330px;
+    height: 45px;
+  }
 
-}
+  .login-text {
+    text-align: left;
+  }
 
+  h1 {
+    font-size: 22px;
+  }
 
+  p {
 
-@media(max-width:500px) and (min-width:400px) {
-  body {
-    font-family: 'Creato Display', sans-serif;
-                                                
-}
-    .login {
-        display: grid;
-        justify-content: center;
-        padding: 0px 20px;
-    }
-        input {
-            width: 400px !important;
-            height: 45px;
-            background-color: var(--loginbg);
-            border: var(--border);
-        }
+    font-size: 10px;
+  }
 
-         #logIn {
-            width: 400px;
-            height: 45px;
-        }
+  .hide-password {
+    width: 30px;
+    margin-left: -40px;
+  }
 
-        .login-text {
-            text-align: left;
-        }
-             h1 {
-                font-size: 22px;
-            }
-
-             p {
-
-                font-size: 10px;
-            }
-        
-        .hide-password{
-            width: 30px;
-            margin-left:-40px;
-        }
-
-         /* contact section */
-  .contact-form{
+  /* contact section */
+  .contact-form {
     padding: 0px 10px;
   }
-   .contact-text h1{
+
+  .contact-text h1 {
     font-size: 30px;
     text-align: center;
-   }
-   .contact-text   br{
+  }
+
+  .contact-text br {
     display: none;
   }
-  .get h1{
+
+  .get h1 {
     font-size: 25px;
   }
-  .get p br{
+
+  .get p br {
     display: none;
   }
-  .get p{
+
+  .get p {
     line-height: 20px;
   }
-  .email{
-    gap:40px ;
+
+  .email {
+    gap: 40px;
   }
-  .get-img img{
+
+  .get-img img {
+    display: flex;
+    position: absolute;
+    left: 78px;
+    bottom: -160px;
+    width: 110px;
+  }
+
+}
+
+
+
+@media(max-width:600px) and (min-width:400px) {
+  body {
+    font-family: 'Creato Display', sans-serif;
+
+  }
+
+  .login {
+    display: grid;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+
+  input {
+    width: 400px !important;
+    height: 45px;
+    background-color: var(--loginbg);
+    border: var(--border);
+  }
+
+  #logIn {
+    width: 400px;
+    height: 45px;
+  }
+
+  .login-text {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+
+    font-size: 10px;
+  }
+
+  .hide-password {
+    width: 30px;
+    margin-left: -40px;
+  }
+
+  /* contact section */
+  .contact-form {
+    padding: 0px 10px;
+  }
+
+  .contact-text h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contact-text br {
+    display: none;
+  }
+
+  .get h1 {
+    font-size: 25px;
+  }
+
+  .get p br {
+    display: none;
+  }
+
+  .get p {
+    line-height: 20px;
+  }
+
+  .email {
+    gap: 40px;
+  }
+
+  .get-img img {
     display: flex;
     position: absolute;
     left: 78px;
     bottom: -130px;
     width: 110px;
-  } 
+  }
 
 }
-      
+
 
 @media(max-width:600px) and (min-width:500px) {
   body {
     font-family: 'Creato Display', sans-serif;
-                                                
+
+  }
+
+  .login {
+    display: grid;
+    justify-content: center;
+    padding: 0px 20px;
+  }
+
+  input {
+    width: 450px !important;
+    height: 45px;
+    background-color: var(--loginbg);
+    border: var(--border);
+  }
+
+  #logIn {
+    width: 450px;
+    height: 45px;
+  }
+
+  .login-text {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+
+    font-size: 10px;
+  }
+
+
+  .hide-password {
+    width: 30px;
+    margin-left: -40px;
+  }
+
 }
-    .login {
-        display: grid;
-        justify-content: center;
-        padding: 0px 20px;
-    }
-        input {
-            width: 450px !important;
-            height: 45px;
-            background-color: var(--loginbg);
-            border: var(--border);
-        }
 
-         #logIn {
-            width: 450px;
-            height: 45px;
-        }
-
-         .login-text {
-            text-align: left;
-         }
-             h1 {
-                font-size: 22px;
-            }
-
-             p {
-
-                font-size: 10px;
-            }
-        
-    
-        .hide-password{
-            width: 30px;
-            margin-left:-40px;
-        }
-
-      }
-
-@media(max-width :768px) and (min-width:600px){
-  body{
+@media(max-width :768px) and (min-width:600px) {
+  body {
     display: none;
   }
 }
@@ -240,72 +268,76 @@
 @media (max-width: 920px) {
   body {
     font-family: 'Creato Display', sans-serif;
-                                                
-}
-    nav .menu-btn i {
-      display: block !important;
-    }
-  
-    #click:checked~.menu-btn i:before {
-      content: "\f00d";
-    }
-  .logo{
+
+  }
+
+  nav .menu-btn i {
+    display: block !important;
+  }
+
+  #click:checked~.menu-btn i:before {
+    content: "\f00d";
+  }
+
+  .logo {
     margin-left: -80px;
   }
-    nav ul {
-      position: fixed;
-      top: 60px;
-      left: -100%;
-      background: rgba(6, 17, 37, 0.777);
-      height: 100vh;
-      width: 100%;
-      text-align: center;
-      display: block !important;
-      transition: all .5s;
-  
-    }
-    
-  nav ul li a:before{
-   align-items: center;
+
+  nav ul {
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    background: rgba(6, 17, 37, 0.777);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block !important;
+    transition: all .5s;
+
   }
-  
-    nav ul li a:hover {
-      color: #ffb633;
-      transition: .2s;
-    }
-  
-  
-    #click:checked~ul {
-      left: 0;
-    }
-  
-    nav ul li {
-      width: 100%;
-      margin: 40px 0 !important;
-    }
-  
-    nav ul li a {
-      display: block;
-      font-size: 20px;
-      color:#fff;
-    }
-    nav ul li a{
-      font-size: 18px !important;
-      letter-spacing: 2px;
-      
-    }
-    nav ul li a:hover{
-      color: #ffb633;
-      transition: .4s;
-    }
-    
-  nav ul li a:before{
-   display: none;
+
+  nav ul li a:before {
+    align-items: center;
   }
-  nav{
-    position:fixed;
+
+  nav ul li a:hover {
+    color: #ffb633;
+    transition: .2s;
+  }
+
+
+  #click:checked~ul {
+    left: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin: 40px 0 !important;
+  }
+
+  nav ul li a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  nav ul li a {
+    font-size: 18px !important;
+    letter-spacing: 2px;
+
+  }
+
+  nav ul li a:hover {
+    color: #ffb633;
+    transition: .4s;
+  }
+
+  nav ul li a:before {
+    display: none;
+  }
+
+  nav {
+    position: fixed;
     top: 0;
   }
-  }
-  
-  
+}
