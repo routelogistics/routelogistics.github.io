@@ -129,6 +129,22 @@
   .contact-text{
     padding-top: 40vh;
   }
+  .call-icon{
+    position: absolute;
+    left: 80px !important;
+    bottom: 30px;
+
+    
+}
+.call-icon img{
+  width: 80px;
+}
+.contact-form{
+  gap: 50px;
+}
+.form-left{
+  padding: 0px 10px;
+}
 
 }
 
