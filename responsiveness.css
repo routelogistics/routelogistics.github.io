@@ -409,6 +409,9 @@
     position: fixed;
     top: 0;
   }
+  .signin-btn {
+    background-color: transparent;
+}
 }
 
 @media (max-width:1440px) and (min-width:1020px){
