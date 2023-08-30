@@ -201,6 +201,9 @@
     font-size: 30px;
     text-align: center;
   }
+  .contact-text p{
+    font-size: 15px;
+  }
 
   .contact-text br {
     display: none;
@@ -226,9 +229,28 @@
     display: flex;
     position: absolute;
     left: 78px;
-    bottom: -130px;
+    bottom: -190px;
     width: 110px;
   }
+  .contact-text{
+    padding-top: 40vh;
+  }
+  .call-icon{
+    position: absolute;
+    left: 80px !important;
+    bottom: 30px;
+
+    
+}
+.call-icon img{
+  width: 80px;
+}
+.contact-form{
+  gap: 50px;
+}
+/* .form-left{
+  padding: 0px 0px 2px 2px;
+} */
 
 }
 
@@ -280,7 +302,7 @@
 
 @media(max-width :768px) and (min-width:600px) {
   body {
-    display: none;
+    display:block;
   }
 }
 
@@ -361,7 +383,10 @@
   }
 }
 
-@media (max-width:1440px) and (min-width:920px){
+@media (max-width:1440px) and (min-width:1020px){
+  /* .overlay{
+    height: 130vh;
+  } */
   .email{
     display: flex;
     align-items: center;
@@ -447,12 +472,12 @@ border-radius: 20px;
 .get p{
     font-size: 16px;
 }
-.get-img img{
+/* .get-img img{
     display: flex;
     position: absolute;
     left: 348px;
-    bottom: -175px;
-}
+    bottom: -315px;
+} */
 .contact-us{
     font-size: 16px;
     margin-top: -35px;
