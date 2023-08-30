@@ -72,7 +72,9 @@ nav ul li a {
     transition: all 0.3s ease;
     position: relative;
 }
-
+.signin-btn a{
+    color: var(--color) !important;
+}
 
 nav ul li a:before {
     position: absolute;
@@ -221,6 +223,7 @@ width: 100%;
 height:100vh !important;
 position: relative;
 background: url(./route/Group\ 12.png);
+background-repeat: no-repeat;
 /* top: 0; */
 }
 .contact-text{
@@ -403,17 +406,19 @@ border-radius: 20px;
     width: 100%;
     height: 80vh !important;
     background:url(./route/Group\ 15.png);
+    background-repeat: no-repeat;
     margin-top: 50px;
 }
 .section3-text{
     display: grid;
     gap: 7px;
-    padding: 0px 50px
+    padding: 0px 85px
     
 }
 .gap{
     display: grid;
     gap: 17px;
+    margin-left: 52px;
 }
 .section3-text h1{
     font-size: 45px;
@@ -444,23 +449,31 @@ border-radius: 20px;
     color: var(--color);
 }
 .contact-btn{
-    background-color: var(--buttonsColor);
+    background-color:transparent;
     border-radius: 10px;
     width: 221px;
     height: 44px;
     font-size: 15px;
     font-weight: bold;
-    border: var(--border);
+    border: 2px solid var(--buttonsColor);
     color: var(--color);
 }
 .section3-content{
-    display: flex !important;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
     
 }
 .section3-img img{
     width: 450px;
+}
+.logistics{
+    font-size: 45px;
+    color: var(--color);
+}
+.consult{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color);
 }
