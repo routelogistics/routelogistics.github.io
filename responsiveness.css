@@ -204,13 +204,17 @@
   .contact-form {
     padding: 0px 10px;
   }
-
+  .overlay{
+    height: 80vh !important;
+  }
   .contact-text h1 {
     font-size: 30px;
     text-align: center;
   }
   .contact-text p{
-    font-size: 15px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 5px;
   }
 
   .contact-text br {
@@ -227,6 +231,7 @@
 
   .get p {
     line-height: 20px;
+
   }
 
   .email {
@@ -237,11 +242,11 @@
     display: flex;
     position: absolute;
     left: 78px;
-    bottom: -190px;
+    bottom: -50px !important;
     width: 110px;
   }
   .contact-text{
-    padding-top: 40vh;
+    padding-top: 35vh;
   }
   .call-icon{
     position: absolute;
@@ -257,7 +262,7 @@
   gap: 50px;
 }
 /* .form-left{
-  padding: 0px 0px 2px 2px;
+  padding: 0px 5px;
 } */
 
 }

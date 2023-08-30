@@ -401,8 +401,8 @@ border-radius: 20px;
 /* section3 */
 .section3{
     width: 100%;
-    height: 500px;
-    background-color: var(--lightblue);
+    height: 100vh;
+    background:url(./route/Group\ 15.png);
     margin-top: 50px;
 }
 
