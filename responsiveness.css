@@ -346,9 +346,9 @@
     content: "\f00d";
   }
 
-  .logo {
+  /* .logo {
     margin-left: -80px;
-  }
+  } */
 
   nav ul {
     position: fixed;
@@ -360,6 +360,8 @@
     text-align: center;
     display: block !important;
     transition: all .5s;
+    justify-content: center;
+    gap: 350px;
 
   }
 
