@@ -157,7 +157,7 @@
 .section3{
   width: 100%;
   background: url(./route/section3\ bg2.png);
-  height: 110vh !important;
+  height: 105vh !important;
   background-repeat: no-repeat;
   margin-top: 50px;
 }
@@ -167,11 +167,22 @@
   margin-left: 80px;
 }
 .logistics{
-  font-size: 30px;
+  font-size: 25px;
+}
+.consult{
+  font-size: 17px;
+}
+.Experence{
+font-size: 14px;
 }
 .gap{
   padding: 10px 10px;
   margin-left: 0px;
+}
+.form-name {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 }
 
@@ -303,7 +314,20 @@
   padding: 10px 10px;
   margin-left: 0px;
 }
-
+.form-name {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.logistics{
+  font-size: 25px;
+}
+.consult{
+  font-size: 17px;
+}
+.Experence{
+font-size: 14px;
+}
 }
 
 
