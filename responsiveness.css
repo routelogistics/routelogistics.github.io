@@ -156,9 +156,15 @@
 /* section3 */
 .section3{
   width: 100%;
-  height: 140vh !important;
+  background: url(./route/section3\ bg2.png);
+  height: 110vh !important;
   background-repeat: no-repeat;
   margin-top: 50px;
+}
+.section3-img img{
+  width: 260px;
+  margin-top: -26px;
+  margin-left: 80px;
 }
 .logistics{
   font-size: 30px;
@@ -277,6 +283,26 @@
 /* .form-left{
   padding: 0px 5px;
 } */
+
+.section3{
+  width: 100%;
+  background: url(./route/section3\ bg2.png);
+  height: 71vh !important;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.section3-img img{
+  width: 300px;
+  margin-top: -60px;
+  margin-left: 110px;
+}
+.logistics{
+  font-size: 30px;
+}
+.gap{
+  padding: 10px 10px;
+  margin-left: 0px;
+}
 
 }
 
@@ -534,7 +560,7 @@ border-radius: 20px;
 /* section3 */
 .section3{
   width: 100%;
-  height: 120vh !important;
+  height: 80vh !important;
   background:url(./route/Group\ 15.png);
   background-repeat: no-repeat;
   margin-top: 50px;
