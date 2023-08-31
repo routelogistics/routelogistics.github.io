@@ -380,6 +380,15 @@ font-size: 14px;
   body {
     display:block;
   }
+
+  .section3-img img{
+    width: 380px;
+    margin-top: -75px;
+    margin-left: 110px;
+  }
+  .section3-content{
+    padding: 15px 0px;
+  }
 }
 
 @media (max-width: 920px) {
