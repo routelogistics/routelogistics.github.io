@@ -21,12 +21,12 @@
     --color1: #000;
     --colorBlue: #00388B;
     --colorGray: #484848;
-    --lightblue:#D9E1EE;
+    --lightblue: #D9E1EE;
 }
 
 body {
     font-family: 'Creato Display', sans-serif;
-                                                
+
 }
 
 /* navbar */
@@ -49,8 +49,10 @@ nav .logo {
     font-weight: 600;
 }
 
-.logo span {
-    color: var(--blu);
+.logo img {
+    width: 62px;
+    height: 28px;
+    flex-shrink: 0;
 }
 
 nav ul {
@@ -72,7 +74,8 @@ nav ul li a {
     transition: all 0.3s ease;
     position: relative;
 }
-.signin-btn a{
+
+.signin-btn a {
     color: var(--color) !important;
 }
 
@@ -96,6 +99,8 @@ nav ul li a:hover:before {
 }
 
 
+
+
 nav .menu-btn i {
     color: var(--color1);
     font-size: 22px;
@@ -117,6 +122,35 @@ input[type="checkbox"] {
 
 
 
+/* home page */
+.home-banner {
+    background: url(./route/Group\ 3.png);
+    width: 100%;
+    height: 100vh;
+}
+
+.home-text {
+    padding: 250px 100px;
+}
+
+.home-text h1 {
+    color: #FFF;
+    font-family: Creato Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.home-text p {
+    color: #FFF;
+    font-family: Creato Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 /* login section */
@@ -210,128 +244,156 @@ input::placeholder {
     display: none;
 
 }
-#logNone{
+
+#logNone {
     color: var(--color);
 }
+
 #logi {
     display: none;
     color: var(--color);
 }
+
 /* the contact section */
-.overlay{
-width: 100%;
-height:100vh !important;
-position: relative;
-background: url(./route/Group\ 12.png);
-background-repeat: no-repeat;
-/* top: 0; */
+.overlay {
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    background: url(./route/Group\ 12.png);
+    background-repeat: no-repeat;
+    /* top: 0; */
 }
-.contact-text{
+
+.contact-text {
     text-align: center;
     padding-top: 45vh;
     display: grid;
     gap: 18px;
     /* position: absolute; */
     top: 0;
-    
+
     /* transform: translate(35%,-20%); */
 }
-.contact-p{
+
+.white {
+    color: var(--color);
+}
+
+.contact-p {
     display: grid;
     gap: 10px;
 }
-.contact-text h1{
+
+.contact-text h1 {
     font-size: 45px;
     color: var(--color);
 }
-.contact{
+
+.contact {
     color: var(--buttonsColor);
 }
-.contact-text p{
+
+.contact-text p {
     font-size: 18px;
     color: var(--color);
 }
-.blue{
+
+.blue {
     color: var(--colorBlue);
 }
-.orange{
+
+.orange {
     color: var(--buttonsColor);
 }
-.line{
+
+.line {
     display: flex;
     align-items: center;
     gap: 5px;
     justify-content: center;
 }
-.line1{
+
+.line1 {
     width: 29px;
     height: 5px;
     background-color: var(--color);
     border-radius: 30px;
 }
-.line2{
+
+.line2 {
     width: 14px;
     height: 5px;
     background-color: var(--buttonsColor);
     border-radius: 30px;
 }
-.call-icon{
+
+.call-icon {
     position: absolute;
     left: 150px !important;
 }
+
 /* .call-icon img{
     width: 40.79px;
     height: 53.28px;
 } */
-.email{
+.email {
     display: flex;
     align-items: center;
     gap: 84px;
 }
-.email-details{
+
+.email-details {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.call-details{
+
+.call-details {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.call-icon1{
-position: absolute;
-top: 190px;
-left: 1100px;
+
+.call-icon1 {
+    position: absolute;
+    top: 190px;
+    left: 1100px;
 }
-.form-name{
+
+.form-name {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
-.form-name input{
-width: 190px;
-height: 82px;
-background-color: var(--lightblue);
-border-radius: 20px;
+
+.form-name input {
+    width: 190px;
+    height: 82px;
+    background-color: var(--lightblue);
+    border-radius: 20px;
 }
-.subject input{
+
+.subject input {
     width: 410px;
     height: 82px;
     background-color: var(--lightblue);
     border-radius: 20px;
 }
-.input-message input{
+
+.input-message input {
     width: 410px;
     height: 156px;
     background-color: var(--lightblue);
     border-radius: 20px;
 }
-.form-left{
+
+.form-left {
     display: grid;
     gap: 19px;
-    
+
 }
-.submit{
+
+.submit {
     background-color: var(--colorBlue);
     width: 130px;
     height: 49px;
@@ -340,60 +402,73 @@ border-radius: 20px;
     border: var(--border);
     color: var(--color);
 }
-.contact-form{
+
+.contact-form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 95px;
     gap: 180px;
-    
+
 }
-.submit-btn{
+
+.submit-btn {
     display: grid;
     justify-content: center;
 }
-.get{
+
+.get {
     display: grid;
     gap: 26px;
 }
-.get h1{
+
+.get h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.get-h1{
+
+.get-h1 {
     display: flex;
     align-items: center;
 }
-.get p{
+
+.get p {
     font-size: 16px;
 }
-.get-img img{
+
+.get-img img {
     display: flex;
     position: absolute;
     left: 265px;
     bottom: -175px;
 }
-.contact-us{
+
+.contact-us {
     font-size: 16px;
     margin-top: -35px;
 }
-.bold{
+
+.bold {
     font-size: 16px;
     font-weight: bold;
 }
-.form-right{
+
+.form-right {
     display: grid;
     gap: 24px;
 }
-.phone-details{
+
+.phone-details {
     display: grid;
     gap: 65px;
 }
-.space1{
+
+.space1 {
     display: grid;
     gap: 3px;
 }
+
 /* .section2{
     width: 100%;
     height: 100vh;
@@ -402,54 +477,62 @@ border-radius: 20px;
 } */
 
 /* section3 */
-.section3{
+.section3 {
     width: 100%;
     height: 80vh !important;
-    background:url(./route/Group\ 15.png);
+    background: url(./route/Group\ 15.png);
     background-repeat: no-repeat;
     margin-top: 50px;
 }
-.section3-text{
+
+.section3-text {
     display: grid;
     gap: 7px;
     padding: 0px 85px
-    
 }
-.gap{
+
+.gap {
     display: grid;
     gap: 17px;
     margin-left: 52px;
 }
-.section3-text h1{
+
+.section3-text h1 {
     font-size: 45px;
     color: var(--color);
 }
-.section3-text h3{
+
+.section3-text h3 {
     font-size: 20px;
     font-weight: bold;
     color: var(--color);
 }
-.Experience{
+
+.Experience {
     font-size: 15px;
     color: var(--color);
     line-height: 20px;
 }
-.delivery{
+
+.delivery {
     display: flex;
     align-items: center;
     gap: 1px;
 }
-.fast-delivery{
+
+.fast-delivery {
     display: flex;
     align-items: center;
     gap: 1px;
 }
-.fast-delivery p{
+
+.fast-delivery p {
     font-size: 12px;
     color: var(--color);
 }
-.contact-btn{
-    background-color:transparent;
+
+.contact-btn {
+    background-color: transparent;
     border-radius: 10px;
     width: 221px;
     height: 44px;
@@ -458,22 +541,93 @@ border-radius: 20px;
     border: 2px solid var(--buttonsColor);
     color: var(--color);
 }
-.section3-content{
-   display: flex;
-   justify-content: center;
+
+.section3-content {
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
-.section3-img img{
+
+.section3-img img {
     width: 450px;
 }
-.logistics{
+
+.logistics {
     font-size: 45px;
     color: var(--color);
 }
-.consult{
+
+.consult {
     font-size: 20px;
     font-weight: bold;
     color: var(--color);
+}
+
+.section4 {
+    margin-top: 94px;
+}
+
+.section4-text h1 {
+    color: #0043A7;
+    font-family: Creato Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section4-text p {
+    color: #000;
+    font-family: Creato Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section4-text {
+    margin: 0px 100px;
+    display: grid;
+    gap: 30px;
+}
+
+.card1 {
+    display: flex;
+    width: 460px;
+    height: 287px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: var(--colorBlue);
+}
+.card-text{
+    padding: 20px 20px;
+}
+.card-text h1{
+    font-size: 35px;
+    color: var(--color);
+}
+.card-text p{
+    font-size: 22px;
+    line-height: 35px;
+    color: var(--color);
+}
+.section4-content{
+    display: grid;
+    gap: 45px;
+}
+.cards{
+    margin-top: 5px;
+}
+.card2{
+    margin-top: 90px;
+}
+.office{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 100px;
 }
