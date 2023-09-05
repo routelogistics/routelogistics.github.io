@@ -123,33 +123,133 @@ input[type="checkbox"] {
 
 
 /* home page */
-.home-banner {
-    background: url(./route/Group\ 3.png);
+
+
+
+.home-banner{
+    padding-top: 60px;
+}
+.home-banner img{
     width: 100%;
     height: 100vh;
+    position: relative;
 }
-
-.home-text {
-    padding: 250px 100px;
+.banner-text{
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    /* top: 214px;
+    left: 346px; */
+    transform: translate(60%, -180%);
+    color:var(--color);
+    text-align: center;
+    
 }
-
-.home-text h1 {
-    color: #FFF;
-    font-family: Creato Display;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-
+.bannertext-content{
+    display: grid;
+    gap: 55px;
 }
+.home-text1{
+    display: grid;
+    gap: 23px;
+}
+.banner-text h1{
+    font-size: 50px;
+}
+.bannertext-content{
+    font-size: 18px;
+}
+.home-btn1{
+    width: 221px;
+    height: 61px;
+    background-color: var(--colorBlue);
+    color: var(--color);
+    border: var(--border);
+    font-size: 24px;
+    font-weight: bold;
+}
+/* .home-btn1:hover{
+    background-color: var(--buttonsColor);
+} */
 
-.home-text p {
-    color: #FFF;
-    font-family: Creato Display;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.board{
+    width: 894px;
+    height: 221px;
+    background-color: var(--color);
+    border-radius: 5px;
+    border-bottom:5px solid var(--buttonsColor);
+    position: absolute;
+    top: 620px;
+    left: 200px;
+}
+.board-img img{
+    width: 59.04px;
+    height: 59.04px;
+}
+.board-img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+.board-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+}
+.board-img h2{
+    text-align: center;
+    font-size: 20px;
+}
+.home-space{
+    display: grid;
+    gap: 40px;
+    padding: 32px 0px;
+}
+/* home-about */
+.home-about{
+    margin-top:200px;
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tracking{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.home-text-icon{
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+.home-icons{
+    display: grid;
+    gap: 28px;
+}
+.btn-home1{
+    width:157.44px;
+    height:46px;
+    background-color: var(--colorBlue);
+     color: var(--color);
+     font-size: 16px;
+     font-weight: bold;
+     border: var(--border);
+}
+.home-about-text{
+    display: grid;
+    gap: 22px;
+}
+.home-p{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--colorBlue);
 }
 
 
