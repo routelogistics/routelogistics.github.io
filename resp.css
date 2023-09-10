@@ -1,4 +1,4 @@
-@media(max-width:400px){
+@media(max-width:400px) {
     :root {
         --loginbg: #EEEEEE;
         --buttonsColor: #F75A0B;
@@ -9,22 +9,431 @@
         --colorGray: #484848;
         --lightblue: #D9E1EE;
     }
-    *{
+
+    * {
         max-width: 100%;
     }
-    .home-banner img{
-        display: none;
+
+    .home-banner img {
+        display: none !important;
     }
-    .home-banner{
+
+    .home-banner {
         background: url(./route/Group\ 11.png);
         width: 100%;
         height: 100vh;
         background-repeat: no-repeat;
         /* background-size: cover; */
     }
-    .banner-text{
-        display: block;
+
+    .banner-text {
+        display: none!important;
         color: var(--color);
-        transform: translate(0%, 0%);
+        position: absolute;
+
+        bottom: -127px;
+        right: 159px
+    }
+/* banner text */
+.banner-text1{
+    display: grid;
+    justify-content: center !important;
+    text-align: center;
+    margin-top: 15vh;
+
+    
+}
+.home-text11 h1{
+    color: var(--color);
+    font-size: 28px;
+}
+.home-text11 p{
+    color: var(--color);
+    font-size: 15px;
+}
+.bannertext-content1{
+    display: grid;
+    gap: 20px;
+}
+    .home-text1 h1 {
+        font-size: 30px;
+    }
+
+    .home-text1 h1 br {
+        display: none;
+    }
+
+    .home-text1 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .home-text1 p br {
+        display: none;
+    }
+
+    .home-btn1 {
+        width: 199px;
+        height: 35px !important;
+    }
+
+
+
+    .board-img img {
+        display: block;
+    }
+
+    .board-img {
+        gap: 0px;
+    }
+
+    .board-text {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .home-space {
+        padding: 0px !important;
+    }
+
+    .home-about {
+        margin-top: -200px;
+        display: flex;
+        justify-content: center;
+        gap: 87px;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+.home-about-text{
+    margin-left: 10px;
+}
+.route{
+    font-size: 15px;
+}
+.route br{
+    display: none;
+}
+.tracking p{
+    font-size: 15px;
+}
+    .ptag {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+
+    /* explore service */
+    .explore-service1 {
+        gap: 0px !important;
+    }
+
+    .max-width {
+        width: 100%;
+        height: 128px;
+        /* background-color: var(--gray); */
+    }
+
+
+    .explore-card {
+        width: 100%;
+    }
+
+    .track-board {
+        width: 100%;
+        height: 273px;
+        background-color: var(--colorBlue);
+        border-radius: 17px;
+        position: relative;
+    }
+
+    .board {
+        display: none;
+    }
+
+    /* footer */
+    .copy-line {
+        width: 300px;
+        height: 1px;
+        background-color: var(--color) !important;
+    }
+
+    .bannertext-content {
+        display: block !important;
     }
 }
+
+@media(max-width:600px) and (min-width:400px) {
+    :root {
+        --loginbg: #EEEEEE;
+        --buttonsColor: #F75A0B;
+        --border: none;
+        --color: #fff;
+        --color1: #000;
+        --colorBlue: #00388B;
+        --colorGray: #484848;
+        --lightblue: #D9E1EE;
+    }
+
+    * {
+        max-width: 100%;
+    }
+
+    .home-banner img {
+        display: none;
+    }
+
+    .home-banner {
+        background: url(./route/Group\ 11.png);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+
+    .banner-text {
+        display:none !important;
+        color: var(--color);
+        transform: translate(0%, 40%);
+
+    }
+
+    .home-text1 h1 {
+        font-size: 32px;
+    }
+
+    .home-text1 h1 br {
+        white-space: nowrap;
+    }
+
+    .home-text1 p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .home-text1 p br {
+        display: none;
+    }
+
+    .home-btn1 {
+        width: 199px;
+        height: 35px !important;
+    }
+
+
+
+    .board-img img {
+        display: block;
+    }
+
+    .board-img {
+        gap: 0px;
+    }
+
+    .board-text {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .home-space {
+        padding: 0px !important;
+    }
+    .banner-text1{
+        display: grid;
+        justify-content: center !important;
+        text-align: center;
+        margin-top: 15vh;
+    
+        
+    }
+    .home-text11 h1{
+        color: var(--color);
+        font-size: 28px;
+    }
+    .home-text11 p{
+        color: var(--color);
+        font-size: 15px;
+    }
+    .bannertext-content1{
+        display: grid;
+        gap: 20px;
+    }
+        .home-text1 h1 {
+            font-size: 30px;
+        }
+    
+    
+
+    /* explore service */
+    .explore-service1 {
+        gap: 0px;
+    }
+
+    .max-width {
+        width: 100%;
+        height: 128px;
+        /* background-color: var(--gray); */
+    }
+
+
+    .explore-card {
+        width: 100%;
+    }
+
+    .track-board {
+        width: 100%;
+        height: 273px;
+        background-color: var(--colorBlue);
+        border-radius: 17px;
+        position: relative;
+    }
+
+    .board {
+        display: none;
+    }
+
+    /* footer */
+    .copy-line {
+        width: 300px;
+        height: 1px;
+        background-color: var(--color) !important;
+    }
+    .home-about-text{
+        margin-left: 10px;
+    }
+    .route{
+        font-size: 15px;
+    }
+    .route br{
+        display: none;
+    }
+    .tracking p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1024px) {
+    * {
+        max-width: 100%;
+    }
+
+    .board {
+        width: 750px !important;
+        height: 221px;
+        background-color: var(--color);
+        border-radius: 5px;
+        border-bottom: 5px solid var(--buttonsColor);
+        position: absolute;
+        top: 490px;
+        left: 130px !important;
+    }
+
+    .banner-text {
+        display: grid;
+        justify-content: center;
+        position: absolute;
+        /* top: 214px;
+        left: 346px; */
+        transform: translate(40%, -160%) !important;
+        color: var(--color);
+        text-align: center;
+
+    }
+
+    nav {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        background: var(--color);
+        border-bottom: 1px solid var(--color);
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    /* about section */
+    .home-about-img img {
+        width: 450px;
+    }
+
+    .home-about-text {
+        font-size: 16px;
+    }
+
+    .explore-service1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 480px;
+    }
+
+    .ptag {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .explore-card {
+        width: 300px;
+        height: 310px;
+        background-color: var(--colorBlue);
+    }
+
+}
+
+@media(max-width:1200px) and (min-width:1024px) {
+    * {
+        max-width: 100%;
+    }
+
+    .board {
+        width: 894px;
+        height: 221px;
+        background-color: var(--color);
+        border-radius: 5px;
+        border-bottom: 5px solid var(--buttonsColor);
+        position: absolute;
+        top: 490px;
+        left: 150px;
+    }
+
+    .banner-text {
+        display: grid;
+        justify-content: center;
+        position: absolute;
+        /* top: 214px;
+    left: 346px; */
+        transform: translate(60%, -160%);
+        color: var(--color);
+        text-align: center;
+
+    }
+
+    nav {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        background: var(--color);
+        border-bottom: 1px solid var(--color);
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        position: fixed;
+        z-index: 1000;
+    }
+}
+
+/* @media(max-width:2560px) {
+    * {
+        max-width: 100%;
+    }
+} */
