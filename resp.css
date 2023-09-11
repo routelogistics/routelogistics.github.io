@@ -120,16 +120,32 @@
 .tracking p{
     font-size: 15px;
 }
+    
     .ptag {
         display: flex;
         justify-content: center;
         gap: 0px;
         flex-wrap: wrap;
+        padding:0px 8px;
+    }
+    .ptag p{
+        font-size: 15px;
+    }
+    .ptag br{
+        display: none;
+    }
+    .explore-service1 button{
+        width:90px;
+        height: 40px;
+    }
+    .explore-container {
+        display: grid;
+        gap:20px!important;
     }
 
     /* explore service */
     .explore-service1 {
-        gap: 0px !important;
+        gap: 45px !important;
     }
 
     .max-width {
@@ -184,7 +200,7 @@
     }
 
     .home-banner img {
-        display: none;
+        display: none !important;
     }
 
     .home-banner {
@@ -196,18 +212,40 @@
     }
 
     .banner-text {
-        display:none !important;
+        display: none!important;
         color: var(--color);
-        transform: translate(0%, 40%);
+        position: absolute;
 
+        bottom: -127px;
+        right: 159px
     }
+/* banner text */
+.banner-text1{
+    display: grid;
+    justify-content: center !important;
+    text-align: center;
+    margin-top: 15vh;
 
+    
+}
+.home-text11 h1{
+    color: var(--color);
+    font-size: 28px;
+}
+.home-text11 p{
+    color: var(--color);
+    font-size: 15px;
+}
+.bannertext-content1{
+    display: grid;
+    gap: 20px;
+}
     .home-text1 h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .home-text1 h1 br {
-        white-space: nowrap;
+        display: none;
     }
 
     .home-text1 p {
@@ -245,36 +283,55 @@
     .home-space {
         padding: 0px !important;
     }
-    .banner-text1{
-        display: grid;
-        justify-content: center !important;
-        text-align: center;
-        margin-top: 15vh;
-    
-        
-    }
-    .home-text11 h1{
-        color: var(--color);
-        font-size: 28px;
-    }
-    .home-text11 p{
-        color: var(--color);
-        font-size: 15px;
-    }
-    .bannertext-content1{
-        display: grid;
-        gap: 20px;
-    }
-        .home-text1 h1 {
-            font-size: 30px;
-        }
-    
-    
 
-    /* explore service */
-    .explore-service1 {
-        gap: 0px;
+    .home-about {
+        margin-top: -200px;
+        display: flex;
+        justify-content: center;
+        gap: 87px;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column-reverse;
     }
+.home-about-text{
+    margin-left: 10px;
+}
+.route{
+    font-size: 15px;
+}
+.route br{
+    display: none;
+}
+.tracking p{
+    font-size: 15px;
+}
+    
+.ptag {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding:0px 8px;
+}
+.ptag p{
+    font-size: 15px;
+}
+.ptag br{
+    display: none;
+}
+.explore-service1 button{
+    width:90px;
+    height: 40px;
+}
+.explore-container {
+    display: grid;
+    gap:20px!important;
+}
+
+/* explore service */
+.explore-service1 {
+    gap: 80px !important;
+}
 
     .max-width {
         width: 100%;
@@ -305,17 +362,9 @@
         height: 1px;
         background-color: var(--color) !important;
     }
-    .home-about-text{
-        margin-left: 10px;
-    }
-    .route{
-        font-size: 15px;
-    }
-    .route br{
-        display: none;
-    }
-    .tracking p{
-        font-size: 15px;
+
+    .bannertext-content {
+        display: block !important;
     }
 }
 
