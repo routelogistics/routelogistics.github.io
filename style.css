@@ -11,6 +11,7 @@
     text-decoration: none;
     list-style: none;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 :root {
@@ -24,7 +25,10 @@
     --lightblue: #D9E1EE;
     --gray: #D9D9D9;
     --grayorange: #F0C3AD;
+<<<<<<< HEAD
     --bg3:#00193F;
+=======
+>>>>>>> 50213c30cfb6d250708909bbf7944602a97ce414
 }
 
 body {
@@ -204,7 +208,11 @@ input[type="checkbox"] {
     justify-content: center;
     align-items: center;
     gap: 200px;
+<<<<<<< HEAD
 
+=======
+    flex-wrap: wrap !important;
+>>>>>>> 50213c30cfb6d250708909bbf7944602a97ce414
 }
 
 .board-text {
@@ -256,12 +264,15 @@ input[type="checkbox"] {
     padding: 30px 0px;
 }
 
+<<<<<<< HEAD
 .max-width {
     width: 70%;
     height: 128px;
     /* background-color: var(--gray); */
 }
 
+=======
+>>>>>>> 50213c30cfb6d250708909bbf7944602a97ce414
 .explore-service {
     margin-top: 110px;
 }
@@ -277,7 +288,10 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     gap: 100px;
+<<<<<<< HEAD
     flex-wrap: wrap;
+=======
+>>>>>>> 50213c30cfb6d250708909bbf7944602a97ce414
 }
 
 .explore-text {
@@ -385,10 +399,26 @@ input[type="checkbox"] {
 }
 
 /* track section */
+<<<<<<< HEAD
 .track-section {
     display: grid;
     justify-content: center;
     margin-top: 120px;
+=======
+.track-section{
+    display: grid;
+    justify-content: center;
+    margin-top: 120px;
+   
+}
+.track-board {
+    width: 894px;
+    height: 273px;
+    background-color: var(--colorBlue);
+    border-radius: 17px;
+    position: relative;
+}
+>>>>>>> 50213c30cfb6d250708909bbf7944602a97ce414
 
 }
 
